@@ -42,6 +42,11 @@ a {
 	text-decoration: none;
 }
 
+/*code {
+	border: 1px solid black;
+	background-color: rgba(0,0,0,0.7);
+}*/
+
 .copyright {
 	align-items: center;
 	justify-content: center;
