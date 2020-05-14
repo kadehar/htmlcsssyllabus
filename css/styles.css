@@ -20,7 +20,9 @@ h2 {
 	padding: 0;
 }
 
-.main-content-list {
+.main-content-list,
+.navigation-list
+ {
 	margin: auto;
 	padding-left: 20px;
 	padding-top: 0px;
@@ -28,7 +30,9 @@ h2 {
 	padding-right: 0px;
 }
 
-.content-list-item {
+.content-list-item,
+.navigation-item
+{
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
