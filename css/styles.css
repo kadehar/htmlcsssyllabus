@@ -1,0 +1,45 @@
+.header-welcome-message {
+	/* align content */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-family: "Arial", sans-serif;
+	font-size: 2em;
+	font-style: italic;
+}
+
+/*.main-content-section {
+	display: flex;
+	align-items: center;
+	/*justify-content: center;*/
+}*/
+
+h2 {
+	margin: 0;
+	padding: 0;
+}
+
+.main-content-list {
+	margin: auto;
+	padding-left: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+}
+
+.content-list-item {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.copyright {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
