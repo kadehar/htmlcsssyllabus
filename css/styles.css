@@ -1,25 +1,80 @@
-.header-welcome-message {
-	/* align content */
+/* align conatiner by center */
+.container {
+	margin: 0 auto;
+}
+
+/* header */
+.welcome {
 	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(99,183,175,0.5);
+}
+
+.welcome-message {
+	font: italic 2em/1 "Arial", sans-serif;
+}
+
+/* syllabus */
+.syllabus-index {
+	
+}
+
+.syllabus-link-item {
+	list-style-type: none;
+}
+
+.chapter {
+	text-decoration: none;
+}
+
+/* copyright */
+.copyright {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(99,183,175,0.5);
+}
+
+.copyright > cite {
+	font: bold 1.5em/1 "Arial", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.header-welcome-message {
+	/* align content */
+/*	display: flex;
 	align-items: center;
 	justify-content: center;
 
 	font-family: "Arial", sans-serif;
 	font-size: 2em;
-	font-style: italic;
-}
+	font-style: italic;*/
+/*}*/
 
 /*.main-content-section {
 	display: flex;
 	align-items: center;
-	/*justify-content: center;*/
+	/*justify-content: center;
 }*/
-
+/*
 h2 {
 	margin: 0;
 	padding: 0;
-}
-
+}*/
+/*
 .main-content-list,
 .navigation-list
  {
@@ -29,26 +84,17 @@ h2 {
 	padding-bottom: 0px;
 	padding-right: 0px;
 }
-
-.content-list-item,
+*/
+/*.content-list-item,
 .navigation-item
 {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
 }
-
-a {
-	text-decoration: none;
-}
+*/
 
 /*code {
 	border: 1px solid black;
 	background-color: rgba(0,0,0,0.7);
 }*/
-
-.copyright {
-	align-items: center;
-	justify-content: center;
-	display: flex;
-}
