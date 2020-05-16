@@ -4,7 +4,7 @@
 }
 
 /* header */
-.welcome {
+.header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -16,11 +16,11 @@
 }
 
 /* syllabus */
-.syllabus-index {
+.main-content {
 	
 }
 
-.syllabus-link-item {
+.chapter-link-item {
 	list-style-type: none;
 }
 
